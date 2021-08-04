@@ -80,7 +80,7 @@ class AboutUs extends Component{
                             <React.Fragment>
                             <Card color = "Secondary" >
                                 <Row>
-                                        <CardImg top width="100%" src={member.image} alt="MemeberPicture" />
+                                        <CardImg top width="100%" src={process.env.PUBLIC_URL+member.image} alt="MemeberPicture" />
                                         <CardBody>
                                             <CardTitle tag ="h1" >{member.name}</CardTitle>
 
@@ -147,7 +147,7 @@ class AboutUs extends Component{
                         we finally built our first robot: Yuri. 
                     </p>
                     <Card inverse>
-                        <CardImg width="100%" src="/images/aboutUs/robot.png" alt="Card image cap" />
+                        <CardImg width="100%" src={process.env.PUBLIC_URL+"/images/aboutUs/robot.png"} alt="Card image cap" />
                         <CardImgOverlay>
                             <Container>
                                 <Col xs = {{size:6,offset:6}}>

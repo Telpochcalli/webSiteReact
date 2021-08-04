@@ -37,7 +37,7 @@ const ImageOverlay = (props) => {
     return (
         <div>
         <Card inverse className ="header-content">
-            <CardImg width="100%" src="/images/homec/index-header.png" alt="Card image cap" />
+            <CardImg width="100%" src={process.env.PUBLIC_URL+"/images/homec/index-header.png"} alt="Card image cap" />
             <CardImgOverlay className = "">
                 <Col md = "5" sm = "7">
                     <CardTitle tag="h1" >Official Team Website</CardTitle>        
@@ -65,7 +65,7 @@ class Home extends Component{
                     <Row>
             
                         <Col md = "7" xs = "12">
-                            <img src = "/images/homec/mechanics.png" className ="homeImages"/>
+                            <img src = {process.env.PUBLIC_URL + "/images/homec/mechanics.png"} className ="homeImages"/>
                         </Col>
                         <Col md = "5" xs = "12">
                             <br/>
@@ -110,14 +110,14 @@ class Home extends Component{
                         </Col>
 
                         <Col md = "7" xs = "12">
-                            <img src = "/images/homec/robot-landing.png" className ="homeImages"/>
+                            <img src = {process.env.PUBLIC_URL+ "/images/homec/robot-landing.png"} className ="homeImages"/>
                         </Col>
                     </Row>
                 
                     <Row>
             
                         <Col md = "7" xs = "12">
-                            <img src = "/images/homec/business.png" className ="homeImages"/>
+                            <img src = {process.env.PUBLIC_URL+"/images/homec/business.png"} className ="homeImages"/>
                         </Col>
                         <Col md = "5" xs = "12">
                             <br/>

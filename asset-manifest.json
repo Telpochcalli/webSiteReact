@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/webSiteReact/robomaster/static/css/main.17c7f4db.chunk.css",
-    "main.js": "/webSiteReact/robomaster/static/js/main.ef03a572.chunk.js",
-    "main.js.map": "/webSiteReact/robomaster/static/js/main.ef03a572.chunk.js.map",
-    "runtime-main.js": "/webSiteReact/robomaster/static/js/runtime-main.6b0823dd.js",
-    "runtime-main.js.map": "/webSiteReact/robomaster/static/js/runtime-main.6b0823dd.js.map",
-    "static/css/2.86df327d.chunk.css": "/webSiteReact/robomaster/static/css/2.86df327d.chunk.css",
-    "static/js/2.1ef4cb8a.chunk.js": "/webSiteReact/robomaster/static/js/2.1ef4cb8a.chunk.js",
-    "static/js/2.1ef4cb8a.chunk.js.map": "/webSiteReact/robomaster/static/js/2.1ef4cb8a.chunk.js.map",
-    "static/js/3.74541987.chunk.js": "/webSiteReact/robomaster/static/js/3.74541987.chunk.js",
-    "static/js/3.74541987.chunk.js.map": "/webSiteReact/robomaster/static/js/3.74541987.chunk.js.map",
-    "index.html": "/webSiteReact/robomaster/index.html",
-    "static/css/2.86df327d.chunk.css.map": "/webSiteReact/robomaster/static/css/2.86df327d.chunk.css.map",
-    "static/css/main.17c7f4db.chunk.css.map": "/webSiteReact/robomaster/static/css/main.17c7f4db.chunk.css.map",
-    "static/js/2.1ef4cb8a.chunk.js.LICENSE.txt": "/webSiteReact/robomaster/static/js/2.1ef4cb8a.chunk.js.LICENSE.txt",
-    "static/media/font-awesome.min.css": "/webSiteReact/robomaster/static/media/fontawesome-webfont.f691f37e.woff",
-    "static/media/logo.6ce24c58.svg": "/webSiteReact/robomaster/static/media/logo.6ce24c58.svg"
+    "main.css": "/webSiteReact/static/css/main.17c7f4db.chunk.css",
+    "main.js": "/webSiteReact/static/js/main.e250e495.chunk.js",
+    "main.js.map": "/webSiteReact/static/js/main.e250e495.chunk.js.map",
+    "runtime-main.js": "/webSiteReact/static/js/runtime-main.bcf0c9bb.js",
+    "runtime-main.js.map": "/webSiteReact/static/js/runtime-main.bcf0c9bb.js.map",
+    "static/css/2.7f66083f.chunk.css": "/webSiteReact/static/css/2.7f66083f.chunk.css",
+    "static/js/2.1ef4cb8a.chunk.js": "/webSiteReact/static/js/2.1ef4cb8a.chunk.js",
+    "static/js/2.1ef4cb8a.chunk.js.map": "/webSiteReact/static/js/2.1ef4cb8a.chunk.js.map",
+    "static/js/3.74541987.chunk.js": "/webSiteReact/static/js/3.74541987.chunk.js",
+    "static/js/3.74541987.chunk.js.map": "/webSiteReact/static/js/3.74541987.chunk.js.map",
+    "index.html": "/webSiteReact/index.html",
+    "static/css/2.7f66083f.chunk.css.map": "/webSiteReact/static/css/2.7f66083f.chunk.css.map",
+    "static/css/main.17c7f4db.chunk.css.map": "/webSiteReact/static/css/main.17c7f4db.chunk.css.map",
+    "static/js/2.1ef4cb8a.chunk.js.LICENSE.txt": "/webSiteReact/static/js/2.1ef4cb8a.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/webSiteReact/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/logo.6ce24c58.svg": "/webSiteReact/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b0823dd.js",
-    "static/css/2.86df327d.chunk.css",
+    "static/js/runtime-main.bcf0c9bb.js",
+    "static/css/2.7f66083f.chunk.css",
     "static/js/2.1ef4cb8a.chunk.js",
     "static/css/main.17c7f4db.chunk.css",
-    "static/js/main.ef03a572.chunk.js"
+    "static/js/main.e250e495.chunk.js"
   ]
 }

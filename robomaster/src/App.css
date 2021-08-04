@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Jumbo {
+  background-color: #2e2d32;
+  font-size: large;
+  color: aliceblue;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.logoRobo {
+  padding-block: 10px 10px;
+}
+
+.buttonLogo {
+  padding-block: 10px 10px;
+}
+
+.homeBackground {
+  background-color: #c7cbce;
+}
+.robotOverlay {
+  color: black;
+}
+
+.robotOverlayText {
+  color: black;
+  text-align: center;
+  align-items: "center";
+  font-size: 15px;
+}
+
+.centeredTitle {
+  text-align: center;
+  align-items: "right";
+}
+
+.memberBackgound {
+  background-color: #b3c5c5;
+}
+
+.memberText {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.header-logo {
+  width: 500px;
+  max-width: 80%;
+}
+
+/* New stuff */
+.dark-layer {
+  background-color: var(--transparent-black-bkg);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* Adjust the navbar´s font size*/
+.navbarFont {
+  font-size: 150%;
+}
+
+/* Remove underline form <a/> component*/
+.remove_undeline {
+  text-decoration: none;
+}
+
+.navbarPad {
+  padding-left: 5%;
+}
+
+.footerStyle {
+  background-color: #2e2d32;
+  font-size: large;
+  color: aliceblue;
+}
+
+/* The social media buttons must be separated throught the line*/
+.socialMediaButton {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* push cette truc to the right: All Rights Reserved 2021 ©*/
+.copyright {
+  margin-left: 40%;
+}
+
+/* Adjust the <a/> component's position with respect with internal routers <Navlink/> & <Link/> */
+.robomasterPosition {
+  padding-top: 5%;
+}
+
+.fotterLabelsPosition {
+  margin-bottom: 50%;
+  margin-left: 2%;
+  margin-right: 2%;
+}

@@ -26,9 +26,9 @@ function Footer(){
         <div className ="footer Jumbo">
                 <Row>
                     <Col md = "9">
-                        <Link className = "remove_undeline text-white fotterLabelsPosition">Home</Link>
-                        <span className ="fotterLabelsPosition"><a href="https://www.robomaster.com/en-US" className = "remove_undeline text-white">Robomaster</a></span>
-                        <Link className = "remove_undeline text-white fotterLabelsPosition">About Us</Link>
+                        <Link to = "/home" className = "remove_undeline text-white fotterLabelsPosition">Home</Link>
+                        <span  className ="fotterLabelsPosition"><a href="https://www.robomaster.com/en-US" className = "remove_undeline text-white">Robomaster</a></span>
+                        <Link to="/aboutUs" className = "remove_undeline text-white fotterLabelsPosition">About Us</Link>
                         <Link className = "remove_undeline text-white fotterLabelsPosition">Support Us</Link>
                         <Link className = "remove_undeline text-white fotterLabelsPosition">Blog</Link>
                         <Link  className = "remove_undeline text-white fotterLabelsPosition">Become a member</Link>
@@ -36,7 +36,7 @@ function Footer(){
 
                     </Col>
                     <Col md = "3">
-                        <p className="copyright">All Rights Reserved 2021 ©</p>
+                        <p>All Rights Reserved 2021 ©</p>
                     </Col>
                 
                 </Row>
@@ -44,10 +44,9 @@ function Footer(){
 
                 <Row>
                     <Col>
-                            <span>  <a className="btn btn-social-icon btn-twitter socialMediaButton" href="http://google.com/+" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>  </span>
-                            <span>  <a className="btn btn-social-icon btn-facebook socialMediaButton" href="http://google.com/+" target="_blank"> <FontAwesomeIcon icon={faFacebookF} /></a>  </span>   
-                            <span>  <a className="btn btn-social-icon btn-flickr socialMediaButton" href="http://google.com/+" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>  </span>   
-                            <span>  <a className="btn btn-social-icon btn-github socialMediaButton" href="http://google.com/+" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>  </span>   
+                            <span>  <a className="btn btn-social-icon btn-twitter socialMediaButton" href="https://twitter.com/TelpochcalliRM" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>  </span>
+                            <span>  <a className="btn btn-social-icon btn-flickr socialMediaButton" href="https://www.instagram.com/telpochcalli_robotics/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>  </span>   
+                            <span>  <a className="btn btn-social-icon btn-github socialMediaButton" href="https://github.com/Telpochcalli" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>  </span>   
                             <span>  <a className="btn btn-social-icon btn-reddit socialMediaButton" href="http://google.com/+" target="_blank"><FontAwesomeIcon icon={faEnvelope} /></a>  </span> 
                     </Col>
 
@@ -55,5 +54,11 @@ function Footer(){
         </div>
     );
 }
+
+
+/* Facebook will remain pending until new orders
+                            <span>  <a className="btn btn-social-icon btn-facebook socialMediaButton" href="http://google.com/+" target="_blank"> <FontAwesomeIcon icon={faFacebookF} /></a>  </span>   
+
+*/ 
 
 export default Footer;

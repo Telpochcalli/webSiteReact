@@ -138,3 +138,21 @@
   margin-left: 2%;
   margin-right: 2%;
 }
+
+/* Home Component*/
+
+.titleOverlay {
+  margin-top: 500px;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.homeImages {
+  max-width: 100%;
+  height: auto;
+}

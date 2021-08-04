@@ -37,7 +37,7 @@ const Navigation = (props) => {
                             <a href="https://www.robomaster.com/en-US" className="remove_undeline"><p className="text-white navbarFont robomasterPosition" style = {{textDecoration:"none"}}>Robomaster</p></a>
                         </NavItem>
                         <NavItem >
-                            <NavLink className="nav-link" to ="/home"><p className="text-white navbarFont">About us</p></NavLink>
+                            <NavLink className="nav-link" to ="/aboutUs"><p className="text-white navbarFont">About us</p></NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink className="nav-link" to='/home'><p className="text-white navbarFont">Support Us</p></NavLink>

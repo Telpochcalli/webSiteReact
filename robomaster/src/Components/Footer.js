@@ -31,7 +31,7 @@ function Footer(){
                         <Link to="/aboutUs" className = "remove_undeline text-white fotterLabelsPosition">About Us</Link>
                         <Link className = "remove_undeline text-white fotterLabelsPosition">Support Us</Link>
                         <Link className = "remove_undeline text-white fotterLabelsPosition">Blog</Link>
-                        <Link  className = "remove_undeline text-white fotterLabelsPosition">Become a member</Link>
+                        <Link to = "/recruitment"  className = "remove_undeline text-white fotterLabelsPosition">Become a member</Link>
                         <Link className = "remove_undeline text-white fotterLabelsPosition">Contact Us</Link>
 
                     </Col>

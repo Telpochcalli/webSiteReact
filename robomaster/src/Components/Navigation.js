@@ -46,7 +46,7 @@ const Navigation = (props) => {
                             <NavLink className="nav-link" to='/home'><p className="text-white navbarFont">Blog</p></NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" to='/home'><p className="text-white navbarFont">Become a member</p></NavLink>
+                            <NavLink  className="nav-link" to='/recruitment'><p className="text-white navbarFont">Become a member</p></NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink className="nav-link" to='/home'><p className="text-white navbarFont">Contact Us</p></NavLink>

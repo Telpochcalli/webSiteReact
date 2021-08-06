@@ -5,6 +5,7 @@ import MEMBERS from './DB/Members';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'; 
 import {faAddressBook, faRobot, faJournalWhills} from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom';
+import Location from './Location'
 
 let members = MEMBERS();
 
@@ -29,8 +30,8 @@ const YuriStory = () => {
         <div>
         <Button size = "sm" color="danger" onClick={toggle}>Learn More <FontAwesomeIcon icon = {faRobot}/></Button>
         <Modal isOpen={modal} toggle={toggle}>
-            <ModalHeader toggle={toggle}>Yuri: The start of something big!</ModalHeader>
-            <ModalBody>
+            <ModalHeader className="centeredTitles" toggle={toggle}>Yuri: The start of something big!</ModalHeader>
+            <ModalBody className ="textJustify">
                 Knowing nothing, we built Yuri, learning everything as we went by. Fellow teams from north america helped us
                 learn, and eventually, we managed to finish our first robot. We where not expecting much, but after we 
                 finished building it, and had decent enough software, we started play... I mean, testing it, fixed some 
@@ -107,11 +108,13 @@ class AboutUs extends Component{
                     <Col xs = "12" md = "6">
                         <h1>Our Team:</h1>
                         <br/>
-                        <p>
-                            We are a mexican team, built from the ground up by ourselves, we want to bring 
-                            inspiration to more Mexicans, and get more people excited about robotics and all 
-                            it has to offer.                        
-                        </p>
+                        <Container>
+                            <p className ="textJustify">
+                                We are a mexican team, built from the ground up by ourselves, we want to bring 
+                                inspiration to more Mexicans, and get more people excited about robotics and all 
+                                it has to offer.                        
+                            </p>
+                        </Container>
                         <br/>
                         <Button color="primary" size="lg" block>
                             <Link to = "/aboutUs" className = "remove_undeline text-white">
@@ -124,7 +127,9 @@ class AboutUs extends Component{
                     </Col>
                     
                     <Col xs = "12" md = "6">
-                        <h1>Map goes Here</h1>
+                        <Container>
+                            <Location/>
+                        </Container>
                     </Col>
                 </Row>
                 <br/>
@@ -133,19 +138,21 @@ class AboutUs extends Component{
                 <Row>
     
                     <h1>Our Story</h1>
-                    <p>
-                        In the search for more, we encountered Robomaster.
-                        The founders came from the robotics team Taman Keet, a FIRST robotics team. 
-                        From there, most of the Telpochcalli founders decided to set off in the search 
-                        for a better and more challenging competition. We gathered ourselves and 
-                        started from scratch, in the middle of a pandemic.
-                        With only 11 people and a dream, we started planing everything, reading the 
-                        documentation, gathering resources, and forming an official team.
+                    <Col xs = {{size:10,offset:1}}>
+                        <p className ="textJustify">
+                            In the search for more, we encountered Robomaster.
+                            The founders came from the robotics team Taman Keet, a FIRST robotics team. 
+                            From there, most of the Telpochcalli founders decided to set off in the search 
+                            for a better and more challenging competition. We gathered ourselves and 
+                            started from scratch, in the middle of a pandemic.
+                            With only 11 people and a dream, we started planing everything, reading the 
+                            documentation, gathering resources, and forming an official team.
 
-                        It wasn't easy though, with no previous knowledge of how to start, and no resources, 
-                        we had to start a team from practically thin air. But little by little, 
-                        we finally built our first robot: Yuri. 
-                    </p>
+                            It wasn't easy though, with no previous knowledge of how to start, and no resources, 
+                            we had to start a team from practically thin air. But little by little, 
+                            we finally built our first robot: Yuri. 
+                        </p>
+                    </Col>
                     <Card inverse>
                         <CardImg width="100%" src={process.env.PUBLIC_URL+"/images/aboutUs/robot.png"} alt="Card image cap" />
                         <CardImgOverlay>
@@ -154,7 +161,7 @@ class AboutUs extends Component{
             
                                     <div className="p-3 bg-dark my-2 rounded">
                                         <Toast>
-                                        <ToastHeader>
+                                        <ToastHeader className ="centeredTitles">
                                             The first robot:
                                         </ToastHeader>
                                         <ToastBody>
@@ -172,20 +179,25 @@ class AboutUs extends Component{
                 <br/>
                 <Row>
                     <Col xs = "12" md = "6">
-                        <h1>Where we are</h1>
-                        <p>
+                        <h1>Where we are:</h1>
+                        <Container>
+                            <p className ="textJustify">
                             We are currently preparing to build 2 more robots, so that we can participate on the 3v3 
                             battles. We do not have much info as of now, but you can go to our blog to get more up to 
                             date news.
-                        </p>
+                            </p>
+                        </Container>
+
                     </Col>
 
                     <Col xs = "12" md = "6">
-                        <h1>Where we are going</h1>
-                        <p>
-                            We are looking forward to becoming a 8 robot team, so that we can compete internationally 
-                            on the full team league. Each robot has their own challenges and goals.
-                        </p>
+                        <h1>Where we are going:</h1>
+                        <Container className ="textJustify">
+                            <p>
+                                We are looking forward to becoming a 8 robot team, so that we can compete internationally 
+                                on the full team league. Each robot has their own challenges and goals.
+                            </p>
+                        </Container>
                     </Col>
                 </Row>
                 <br/>

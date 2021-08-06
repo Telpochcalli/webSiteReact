@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import {Row,Col,
+import {Row,Col,Container,
 Card, CardTitle, CardText, CardImg, CardImgOverlay, Button} from 'reactstrap';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'; 
 import {faHandsHelping, faJournalWhills, faUsers} from '@fortawesome/free-solid-svg-icons';
@@ -68,44 +68,43 @@ class Home extends Component{
                             <img src = {process.env.PUBLIC_URL + "/images/homec/mechanics.png"} className ="homeImages"/>
                         </Col>
                         <Col md = "5" xs = "12">
-                            <br/>
                             <h1>Our Vision</h1>
-                            <br/>
-                            <p>
-                                We are looking towards bringing robotics to Mexico. By using fun and challenging projects,
-                                we look to inspire, learn, educate and innovate on how people think about robots.
-                                By creating different kinds of robots and competing on international grounds, we want to 
-                                bring the light to our country, and show our worth. As of now, we are a small team, however,
-                                we hope that moving forward we can make a big team! if you want to learn more about us, go 
-                                to the about us page
-                            </p>
-                            <br/>
+                            <Container>
+                                <p className ="textJustify">
+                                    We are looking towards bringing robotics to Mexico. By using fun and challenging projects,
+                                    we look to inspire, learn, educate and innovate on how people think about robots.
+                                    By creating different kinds of robots and competing on international grounds, we want to 
+                                    bring the light to our country, and show our worth. As of now, we are a small team, however,
+                                    we hope that moving forward we can make a big team! if you want to learn more about us, go 
+                                    to the about us page
+                                </p>
+                            </Container>
                             <Button color="primary" size="lg" block>
                                 <Link to = "/aboutUs" className = "remove_undeline text-white">
                                     About us <FontAwesomeIcon icon = {faUsers}/>
                                 </Link>
                             </Button>
-
+                            <br/>
                             <br/>
                         </Col>
                     </Row>
 
                     <Row>
                         <Col md = "5" xs = "12">
-                            <br/>
                             <h1>Mission</h1>
-                            <br/>
-                            <p>
-                                We are aiming to go towards a team with the entire 8 robots. This way, we can compete on the 
-                                most challenging yet exciting RoboMaster competition. As of now, we only have one of the basic
-                                robots, but we have learned a lot with it.
-                                Making other programs such as taking robotics to other schools and teaching locally is also
-                                important for us, we want to one day show more young minds to collaborate, build and imagine 
-                                with us. If you want to learn more about what steps we are taking towards getting there, you 
-                                might want to check out our blog!
-                            </p>
-                            <br/>
+                            <Container>
+                                <p className ="textJustify">
+                                    We are aiming to go towards a team with the entire 8 robots. This way, we can compete on the 
+                                    most challenging yet exciting RoboMaster competition. As of now, we only have one of the basic
+                                    robots, but we have learned a lot with it.
+                                    Making other programs such as taking robotics to other schools and teaching locally is also
+                                    important for us, we want to one day show more young minds to collaborate, build and imagine 
+                                    with us. If you want to learn more about what steps we are taking towards getting there, you 
+                                    might want to check out our blog!
+                                </p>
+                            </Container>
                             <Button color = "warning" size="lg" block>Blog <FontAwesomeIcon icon = {faJournalWhills}/></Button>
+                            <br/>
                             <br/>
                         </Col>
 
@@ -120,19 +119,19 @@ class Home extends Component{
                             <img src = {process.env.PUBLIC_URL+"/images/homec/business.png"} className ="homeImages"/>
                         </Col>
                         <Col md = "5" xs = "12">
-                            <br/>
                             <h1>Want to help?</h1>
-                            <br/>
-                            <p>
-                                We might be new, but we are going in strong! If you want to help us on our journey, you can follow us
-                                on social media, or is you want to be a part of the team, contact us below!
-                                If you want to help even more, you might want to consider becoming out sponsor! If that is the case, we
-                                really appreciate your support, and for that reason we want to give back. To learn more, go to the become
-                                a sponsor page.
-                            </p>
-                            <br/>
+                            <Container>
+                                <p className ="textJustify">
+                                    We might be new, but we are going in strong! If you want to help us on our journey, you can follow us
+                                    on social media, or is you want to be a part of the team, contact us below!
+                                    If you want to help even more, you might want to consider becoming out sponsor! If that is the case, we
+                                    really appreciate your support, and for that reason we want to give back. To learn more, go to the become
+                                    a sponsor page.
+                                </p>
+                            </Container>
                             <Button color="success" size="lg" block>Become a Sponsor <FontAwesomeIcon icon = {faHandsHelping}/></Button>
 
+                            <br/>
                             <br/>
                         </Col>
                     </Row>

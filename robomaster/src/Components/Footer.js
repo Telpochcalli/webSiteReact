@@ -3,10 +3,12 @@ import {Row,Col,Container} from 'reactstrap';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'; 
 import { faEnvelope, faRobot,faChartLine, faJournalWhills,faPhoneVolume} from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faFacebookF, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons';
-import Navigation from './Navigation';
+import MediaButtons from './MediaButtons';
 import {Link} from "react-router-dom";
-
+import MEDIA from "./DB/MEDIA.js"
 // Facebook twitter instagram github mail
+
+const media = MEDIA();
 
 const ColoredLine = ({ color }) => (
     <hr
@@ -32,7 +34,7 @@ function Footer(){
                         <Link className = "remove_undeline text-white fotterLabelsPosition">Support Us</Link>
                         <Link className = "remove_undeline text-white fotterLabelsPosition">Blog</Link>
                         <Link to = "/recruitment"  className = "remove_undeline text-white fotterLabelsPosition">Become a member</Link>
-                        <Link className = "remove_undeline text-white fotterLabelsPosition">Contact Us</Link>
+                        <Link to = "/contactUs" className = "remove_undeline text-white fotterLabelsPosition">Contact Us</Link>
 
                     </Col>
                     <Col md = "3">
@@ -42,15 +44,7 @@ function Footer(){
                 </Row>
                 <Row><div style={{ borderTop: "2px solid #fff ", marginLeft: 2, marginRight: 2 }}></div></Row>
 
-                <Row>
-                    <Col>
-                            <span>  <a className="btn btn-social-icon btn-twitter socialMediaButton" href="https://twitter.com/TelpochcalliRM" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>  </span>
-                            <span>  <a className="btn btn-social-icon btn-flickr socialMediaButton" href="https://www.instagram.com/telpochcalli_robotics/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>  </span>   
-                            <span>  <a className="btn btn-social-icon btn-github socialMediaButton" href="https://github.com/Telpochcalli" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>  </span>   
-                            <span>  <a className="btn btn-social-icon btn-reddit socialMediaButton" href="http://google.com/+" target="_blank"><FontAwesomeIcon icon={faEnvelope} /></a>  </span> 
-                    </Col>
-
-                </Row>
+                <MediaButtons parameters = {media}/>
         </div>
     );
 }

@@ -17,6 +17,7 @@ const Recruitment = () =>{
         <div>
             <Row>
                 <Col xs = "12" md = "6">
+                    <br/>
                     <h1>We are glad you are interested!</h1>
                     <Container>
                         <p>
@@ -34,6 +35,7 @@ const Recruitment = () =>{
                     </Button>
                 </Col>
                 <Col  xs = "12" md = "6">
+                    <br/>
                     <h1>Have any questions? We can answer them!</h1>
                     <Container>
                         <p>
@@ -85,8 +87,10 @@ const Recruitment = () =>{
                             that, you can still go though out interview, and if you have other aptitudes we like about you, we will 
                             certainly let you i
                         </p>
+                        <Container>
+                            <RequirementList array = {req.Programming}/>
+                        </Container>
 
-                        <RequirementList array = {req.Programming}/>
 
 
 
@@ -99,8 +103,10 @@ const Recruitment = () =>{
                             to cut pieces of material, and designing everything.
                         </p>
 
+                        <Container>
 
-                        <RequirementList array = {req.Mechanic}/>
+                            <RequirementList array = {req.Mechanic}/>
+                        </Container>
 
 
 
@@ -114,12 +120,15 @@ const Recruitment = () =>{
                         </p>
 
 
-
-                        <RequirementList array = {req.Bussiness}/>
+                        <Container>
+                            <RequirementList array = {req.Bussiness}/>
+                        </Container>
 
 
                         <h6>Additionally, you will need to:</h6>
-                        <RequirementList array = {req.Extra}/>
+                        <Container>
+                            <RequirementList array = {req.Extra}/>
+                        </Container>
 
 
                         <h4>Step 2: Applying</h4>
@@ -130,7 +139,7 @@ const Recruitment = () =>{
                         <h6>Make yourself shine!</h6>
                         <br/>
                         <Button color="primary" size="lg" block>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeCc6plX1zf10RClD2dFuNun5lOjh-4eJ4GZmLVi7zv_SJDng/" className = "remove_undeline text-white">
+                            <a href="https://forms.gle/WePr3HM1TEFmUKkE9" className = "remove_undeline text-white">
                                 Join Now <FontAwesomeIcon icon = {faPollH}/>
                             </a>
                         </Button>

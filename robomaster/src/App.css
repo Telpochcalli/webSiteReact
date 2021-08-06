@@ -121,6 +121,7 @@
   margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 5%;
 }
 
 /* push cette truc to the right: All Rights Reserved 2021 ©*/
@@ -155,4 +156,13 @@
 .homeImages {
   max-width: 100%;
   height: auto;
+}
+
+.textJustify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.centeredTitles {
+  text-align: center;
 }

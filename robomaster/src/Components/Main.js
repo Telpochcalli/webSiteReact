@@ -3,6 +3,7 @@ import Footer from './Footer';
 import Home from './Home';
 import AboutUs from './AbouUs';
 import Recruitment from './Recruitment';
+import ContactPage from './ContactPage';
 import React,{Component} from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
@@ -21,7 +22,8 @@ class Main extends Component{
                     <Route path='/home' component={Home} />
                     <Route path='/aboutUs' component={AboutUs} />
                     <Route path = "/recruitment" component = {Recruitment}/>
-                    <Redirect to="/home" />
+                    <Route path = "/contactUs" component = {ContactPage}/>
+                    <Redirect exact to="" />
                 </Switch>
                 <Footer/>
             </React.Fragment>

@@ -14,7 +14,7 @@ const Header = () => {
                         <Col md = "4">
                             <img src={process.env.PUBLIC_URL + '/images/logo-telpochcalli-2.png'} width="200" alt="logo" className="header-logo"></img>
                         </Col>
-                        <Col md = "auto">
+                        <Col md = "8">
                             <Navigation className="navbarPad"/>
                         </Col>
 

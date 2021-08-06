@@ -23,7 +23,7 @@ class Main extends Component{
                     <Route path='/aboutUs' component={AboutUs} />
                     <Route path = "/recruitment" component = {Recruitment}/>
                     <Route path = "/contactUs" component = {ContactPage}/>
-                    <Redirect exact to="" />
+                    <Redirect exact to="/home" />
                 </Switch>
                 <Footer/>
             </React.Fragment>

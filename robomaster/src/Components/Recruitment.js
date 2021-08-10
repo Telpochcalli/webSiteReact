@@ -18,9 +18,9 @@ const Recruitment = () =>{
             <Row>
                 <Col xs = "12" md = "6">
                     <br/>
-                    <h1>We are glad you are interested!</h1>
+                    <h1 className ="centeredTitles">We are glad you are interested!</h1>
                     <Container>
-                        <p>
+                        <p className = "textJustify">
                             As far as our recruitment goes, we are currently oppened for new applications. 
                             New applications done after september 24th will not be considered until we do 
                             another recruitment phase.
@@ -36,7 +36,7 @@ const Recruitment = () =>{
                 </Col>
                 <Col  xs = "12" md = "6">
                     <br/>
-                    <h1>Have any questions? We can answer them!</h1>
+                    <h1 className ="centeredTitles">Have any questions? We can answer them!</h1>
                     <Container>
                         <p>
                             Our main way to communicate and answer questions is though our Discord server. 
@@ -55,7 +55,7 @@ const Recruitment = () =>{
             <br/>
             <Row>
                 <Container>
-                    <h1>Steps for joining:</h1>
+                    <h1 className ="centeredTitles">Steps for joining:</h1>
                     <br/>
                     <Col xs = "12" md = {{size : 6,offset:3}}>
                         <h3>
@@ -80,7 +80,7 @@ const Recruitment = () =>{
 
 
                         <h5>Programming / Electrical</h5>
-                        <p>
+                        <p className = "textJustify">
                             As part of the programming team, you would work directly on the code of the robot (c++).
                             We also need people that know how to work on computer vision (Python) and AI. You do not 
                             need to be an expert, but have a little of the following requirements, if you don't know anything about 
@@ -97,7 +97,7 @@ const Recruitment = () =>{
 
 
                         <h5>Mechanical</h5>
-                        <p>
+                        <p className = "textJustify">
                             As part of the mechanical side of the team, you will be able to directly work on one of 3 robots, 
                             from design to completion. As part of the knowhow, we need to work on CAD software, knowing how 
                             to cut pieces of material, and designing everything.
@@ -112,7 +112,7 @@ const Recruitment = () =>{
 
 
                         <h5>Business</h5>
-                        <p>
+                        <p className = "textJustify">
                             As of now, we do not have a well established business division, meaning that as part of the business 
                             team, you will be in charge of setting priorities for expenses, getting sponsors, and building a strong 
                             image and business side of the team. Part of your actions will be talking to possible sponsors, managing 
@@ -153,7 +153,7 @@ const Recruitment = () =>{
 
                         
                         <h4>Step 2.5: Step 2.5: Joining our discord community</h4>
-                        <p>
+                        <p  className = "textJustify">
                             As part of our team, discord is our main way to communicate, give announcements, and hang out with other 
                             teams from North America. Here is where all the meeting happen, and it is the easiest way to solve any of 
                             your questions. In case you do not know, you can go to The discord website and learn some stuff about it. 
@@ -174,7 +174,7 @@ const Recruitment = () =>{
 
 
                         <h4>Step 3: Interview</h4>
-                        <p>
+                        <p className = "textJustify">
                             Once you have applied, we will contact you through email, there, a member of our team will go through 
                             your application and will get to know you better. The email will contain details on when and how to meet 
                             us, when, and everything you will need to know.
@@ -185,7 +185,7 @@ const Recruitment = () =>{
 
 
                         <h4>Step 4: Interview</h4>
-                        <p>
+                        <p className = "textJustify">
                             Time to celebrate!
                             We will contact you through email and tell you that you are officially on out team, with better details 
                             on the ceremony (place, time, and all of that good stuff). After that, we will all get together!

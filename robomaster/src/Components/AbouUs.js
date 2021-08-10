@@ -121,11 +121,13 @@ class AboutUs extends Component{
                                 Contact Us <FontAwesomeIcon icon = {faAddressBook}/>
                             </Link>
                         </Button>
-                        <br/>                        
+                        <br/>
+                        <br/>
+
 
                     
                     </Col>
-                    
+
                     <Col xs = "12" md = "6">
                         <Container>
                             <Location/>
@@ -134,7 +136,7 @@ class AboutUs extends Component{
                 </Row>
                 <br/>
                 <br/>
-                <br/>
+
                 <Row>
     
                     <h1>Our Story</h1>
@@ -201,16 +203,14 @@ class AboutUs extends Component{
                     </Col>
                 </Row>
                 <br/>
-                <br/>
-                <br/>
+
                 <Row>
                     <Col xs = {{size: 4, offset :4}}>
                         <Button color = "warning" size = "lg" block>Blog <FontAwesomeIcon icon = {faJournalWhills}/></Button>
                     </Col>
                 </Row>
                 <br/>
-                <br/>
-                <br/>
+
 
             </div>
 

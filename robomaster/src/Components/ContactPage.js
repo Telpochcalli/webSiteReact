@@ -36,7 +36,8 @@ class ContactPage extends Component{
                 <br/>
                 <Row>
                     <h1 className ="centeredTitles">Have any questions? <br/> We can answer them!</h1>
-                    <Col xs = {{size:10,offset:1}}>
+                    <Col md = {{size:8,offset:2}}>
+                        <Container>
                         <p className = "textJustify">
                             You can contact us in may ways. You are more than welcome to contact us at anytime and for any reason, 
                             we will do our best to answer as best and quickly as possible. If you want to learn 
@@ -45,12 +46,19 @@ class ContactPage extends Component{
                             If you wish, you can send us an email to: telpochcalli.robotics@gmail.com
                             Otherwise, if you wish to, you can follow us on our social media, we have the following options:
                         </p>
+                        </Container>
+                    </Col>
+                </Row>
+                <br/>
+                <Row>
+                    <Col md = {{size:8,offset:4}} xs = {{size:10,offset:1}}>
                         <div className="p-3 bg-info my-1 rounded">
                             <Toast>
                                 <MediaButtons parameters = {media}/>
                             </Toast>
-                        </div>
+                        </div>  
                     </Col>
+            
                 </Row>
                 <br/>
                 <br/>
